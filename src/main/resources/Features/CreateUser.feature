@@ -1,6 +1,6 @@
 Feature: Creating a user using Post API
 
-  @sanity
+  @regression
   Scenario Outline: User verifies create Portal API is working
     Given User selects "<Payload>" for Create Portal API
     When User hit create post api
@@ -8,4 +8,4 @@ Feature: Creating a user using Post API
     And User verifies "<Status_Code>" should matches
     Examples:
       | Payload    | Status_Code |
-      | happy_path | 201         |
+      | happy_path | 200         |

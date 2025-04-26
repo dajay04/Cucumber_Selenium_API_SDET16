@@ -1,6 +1,6 @@
 Feature: Updating a User using an Put API
 
-  @sanity
+  @regression
   Scenario Outline: User verifies Update Portal API is working fine
     Given User selects "<Payload>" for Create Portal API
     When User hit create post api

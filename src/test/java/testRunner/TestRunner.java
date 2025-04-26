@@ -10,7 +10,7 @@ import stepDefinitions.BaseClass;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-            features = "C:\\Users\\dahiy\\IdeaProjects\\Cucumber_Selenium_SDET16\\Features",
+            features = "src/main/resources/Features",
             glue = "stepDefinitions",
             tags = "@regression",
             monochrome = true,// it will remove unneccsary characters in console window
